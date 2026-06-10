@@ -22,7 +22,7 @@ Before(async function (this: CustomWorld) {
 
 
   this.browser = await browserType.launch({
-    headless: false
+    headless: true
   });
 
 
