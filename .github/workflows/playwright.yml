@@ -1,11 +1,17 @@
-name: Playwright Tests
+name: Playwright Cucumber Pages
+
 on:
   push:
-    branches: [ main, master ]
-  pull_request:
-    branches: [ main, master ]
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
-  test:
+  test-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -23,24 +29,21 @@ jobs:
       - name: Instalar browsers de Playwright
         run: npx playwright install --with-deps
 
-      - name: Ejecutar pruebas Cucumber en 3 navegadores
-        run: npm run test:browsers
+      - name: Ejecutar pruebas Cucumber con Playwright
+        run: npm run test:formulario
         env:
           CI: true
 
-      - name: Subir reporte HTML
+      - name: Configurar GitHub Pages
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/configure-pages@v5
+
+      - name: Subir reporte a Pages
+        if: always()
+        uses: actions/upload-pages-artifact@v3
         with:
-          name: cucumber-html-report
           path: reports/html-report
 
-      - name: Subir evidencias
+      - name: Publicar GitHub Pages
         if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: evidencias-playwright
-          path: |
-            reports/screenshots
-            reports/videos
-            reports/json
+        uses: actions/deploy-pages@v4
