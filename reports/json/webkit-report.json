@@ -1,0 +1,214 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "formulario-novus;registro-de-formulario",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Registro de Formulario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1625547292
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "ingreso a la pagina del proyecto",
+            "match": {
+              "location": "tests/steps/formulario.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 847766875
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "ingreso el nombre",
+            "match": {
+              "location": "tests/steps/formulario.steps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80146333
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "ingreso apellido",
+            "match": {
+              "location": "tests/steps/formulario.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19209541
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "ingreso el numero de telefono",
+            "match": {
+              "location": "tests/steps/formulario.steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11110208
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "ingreso correo electronico",
+            "match": {
+              "location": "tests/steps/formulario.steps.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19945167
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "marco mi pasatiempo",
+            "match": {
+              "location": "tests/steps/formulario.steps.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4030860541
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "elijo mi genero",
+            "match": {
+              "location": "tests/steps/formulario.steps.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 239914332
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "selecciono departamento",
+            "match": {
+              "location": "tests/steps/formulario.steps.ts:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13715332
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "selecciono ciudad",
+            "match": {
+              "location": "tests/steps/formulario.steps.ts:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2654500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "selecciono un comando",
+            "match": {
+              "location": "tests/steps/formulario.steps.ts:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2773124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "doy click en enviar",
+            "match": {
+              "location": "tests/steps/formulario.steps.ts:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48044082
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "me muestra los datos en pantalla.",
+            "match": {
+              "location": "tests/steps/formulario.steps.ts:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 611574375
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "doy click en close",
+            "match": {
+              "location": "tests/steps/formulario.steps.ts:76"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51699916
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 73799791
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@formulario",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "formulario-novus",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Formulario Novus",
+    "tags": [],
+    "uri": "tests/features/formulario.feature"
+  }
+]
