@@ -33,8 +33,8 @@ jobs:
       - name: Instalar browsers de Playwright
         run: npx playwright install --with-deps
 
-      - name: Ejecutar pruebas Cucumber con Playwright
-        run: npm run test:browsers
+      - name: Ejecutar pruebas Cucumber
+        run: npm run test:formulario
         env:
           CI: true
 
