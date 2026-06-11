@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 985287583
+              "duration": 1084887541
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 796927915
+              "duration": 794091665
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 58510082
+              "duration": 47776083
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 7,
             "name": "ingreso apellido",
             "match": {
-              "location": "tests/steps/formulario.steps.ts:26"
+              "location": "tests/steps/formulario.steps.ts:28"
             },
             "result": {
               "status": "passed",
-              "duration": 4188791
+              "duration": 13028208
             }
           },
           {
@@ -62,11 +62,11 @@
             "line": 8,
             "name": "ingreso el numero de telefono",
             "match": {
-              "location": "tests/steps/formulario.steps.ts:31"
+              "location": "tests/steps/formulario.steps.ts:33"
             },
             "result": {
               "status": "passed",
-              "duration": 6264583
+              "duration": 5362541
             }
           },
           {
@@ -75,11 +75,11 @@
             "line": 9,
             "name": "ingreso correo electronico",
             "match": {
-              "location": "tests/steps/formulario.steps.ts:36"
+              "location": "tests/steps/formulario.steps.ts:38"
             },
             "result": {
               "status": "passed",
-              "duration": 3621666
+              "duration": 4079291
             }
           },
           {
@@ -88,11 +88,11 @@
             "line": 10,
             "name": "marco mi pasatiempo",
             "match": {
-              "location": "tests/steps/formulario.steps.ts:41"
+              "location": "tests/steps/formulario.steps.ts:43"
             },
             "result": {
               "status": "passed",
-              "duration": 3995632415
+              "duration": 3992273250
             }
           },
           {
@@ -101,11 +101,11 @@
             "line": 11,
             "name": "elijo mi genero",
             "match": {
-              "location": "tests/steps/formulario.steps.ts:46"
+              "location": "tests/steps/formulario.steps.ts:48"
             },
             "result": {
               "status": "passed",
-              "duration": 249973417
+              "duration": 248302041
             }
           },
           {
@@ -114,11 +114,11 @@
             "line": 12,
             "name": "selecciono departamento",
             "match": {
-              "location": "tests/steps/formulario.steps.ts:51"
+              "location": "tests/steps/formulario.steps.ts:53"
             },
             "result": {
               "status": "passed",
-              "duration": 6789708
+              "duration": 7485708
             }
           },
           {
@@ -127,11 +127,11 @@
             "line": 13,
             "name": "selecciono ciudad",
             "match": {
-              "location": "tests/steps/formulario.steps.ts:56"
+              "location": "tests/steps/formulario.steps.ts:58"
             },
             "result": {
               "status": "passed",
-              "duration": 11300666
+              "duration": 4191291
             }
           },
           {
@@ -140,11 +140,11 @@
             "line": 14,
             "name": "selecciono un comando",
             "match": {
-              "location": "tests/steps/formulario.steps.ts:61"
+              "location": "tests/steps/formulario.steps.ts:63"
             },
             "result": {
               "status": "passed",
-              "duration": 4028416
+              "duration": 3444792
             }
           },
           {
@@ -153,11 +153,11 @@
             "line": 15,
             "name": "doy click en enviar",
             "match": {
-              "location": "tests/steps/formulario.steps.ts:66"
+              "location": "tests/steps/formulario.steps.ts:68"
             },
             "result": {
               "status": "passed",
-              "duration": 28105958
+              "duration": 36563041
             }
           },
           {
@@ -166,11 +166,11 @@
             "line": 16,
             "name": "me muestra los datos en pantalla.",
             "match": {
-              "location": "tests/steps/formulario.steps.ts:71"
+              "location": "tests/steps/formulario.steps.ts:73"
             },
             "result": {
               "status": "passed",
-              "duration": 578824250
+              "duration": 634204999
             }
           },
           {
@@ -179,11 +179,11 @@
             "line": 17,
             "name": "doy click en close",
             "match": {
-              "location": "tests/steps/formulario.steps.ts:76"
+              "location": "tests/steps/formulario.steps.ts:78"
             },
             "result": {
               "status": "passed",
-              "duration": 42599291
+              "duration": 42030625
             }
           },
           {
@@ -191,7 +191,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 39630708
+              "duration": 45437334
             }
           }
         ],

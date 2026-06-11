@@ -8,7 +8,9 @@ export class TextPage {
     }
 
     async ingresoNombre(nombre: string) {
+        console.log("Antes Ingreso name");
         await this.page.getByRole('textbox', { name: 'Nombres y Apellidos' }).fill(nombre);
+        console.log("Despues Ingreso name");
     }
 
     async ingresoApellido(apellido: string) {
