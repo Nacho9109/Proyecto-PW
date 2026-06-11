@@ -19,10 +19,8 @@ Given('ingreso a la pagina del proyecto', async function (this: CustomWorld) {
 });
 
 When('ingreso el nombre', async function (this: CustomWorld) {
-  console.log('Antes de llenar nombre');
   textPage = new TextPage(this.page);
   await textPage.ingresoNombre('Juan'); // Llamamos al método para ingresar el nombre en la página
-  console.log('Despues de llenar nombre');
 });
 
 When('ingreso apellido', async function (this: CustomWorld) {
